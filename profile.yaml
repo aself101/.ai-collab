@@ -1,0 +1,99 @@
+version: "0.1"
+owner: "Alex"
+handle: "aself101"
+
+identity:
+  role: "Senior Systems Engineer"
+  domains:
+    - "AI tooling"
+    - "NPM package ecosystem"
+    - "Agricultural operations systems"
+    - "IoT + sensors"
+    - "Data engineering"
+    - "Architecture & DevOps"
+
+style:
+  tone: "calm_concise_grounded"
+  avoid_phrases:
+    - "cutting-edge"
+    - "revolutionary"
+    - "paradigm"
+    - "transformative"
+  prefers:
+    - "explicit_assumptions"
+    - "stated_uncertainty"
+    - "short_clear_sentences"
+    - "tradeoff_analysis"
+    - "directness"
+    - "systemic_reasoning"
+
+collaboration:
+  wants:
+    - "critical_review"
+    - "multiple_options"
+    - "validation_loops"
+    - "simple_explanations_for_complex_systems"
+  avoid:
+    - "generic_advice"
+    - "unjustified_confidence"
+    - "marketing_tone"
+    - "overly_verbose_context_dumping"
+
+code_preferences:
+  languages:
+    primary: ["javascript", "node", "python", "sql"]
+    secondary: ["bash", "typescript"]
+  principles:
+    - "KISS"
+    - "DRY"
+    - "deterministic"
+    - "≤200_lines_per_module"
+    - "explicit_contracts"
+    - "ownership_at_file_top"
+  documentation:
+    style: "owner_manual"
+    include:
+      - "assumptions"
+      - "io_contracts"
+      - "failure_modes"
+      - "edge_cases"
+
+workflows:
+  default:
+    - "clarify_requirements"
+    - "state_assumptions"
+    - "propose_design"
+    - "iterate_with_feedback"
+    - "implement_minimal_modules"
+    - "add_validation_and_tests"
+  validation_gates:
+    - "structure_validator"
+    - "content_validator"
+    - "security_validator"
+    - "semantics_validator"
+    - "data_science_audit"
+    - "dx_validator"
+    - "ship_gate"
+
+project_overlays:
+  hmns:
+    notes:
+      - "Prefer explicit units and ranges"
+      - "Highlight operational constraints"
+      - "Use tables when uncertain"
+      - "Call out domain assumptions with ⚠️"
+  image_gen_packages:
+    notes:
+      - "README examples must always work"
+      - "Prioritize DX validator feedback"
+      - "CI/CD must be deterministic"
+
+safety:
+  avoid:
+    - "precise_geolocation"
+    - "personal_sensitive_details"
+  ok_to_use:
+    - "career_history"
+    - "technical_background"
+    - "project_preferences"
+  visibility: "may_reference"
